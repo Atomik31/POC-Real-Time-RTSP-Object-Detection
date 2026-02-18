@@ -12,8 +12,8 @@ This project provides a low-latency solution for real-time object detection on R
 
 ### Clone the repository:
 ```bash
-git clone <your-repo-url>
-cd Object-detection
+git clone https://github.com/Atomik31/POC-Real-Time-RTSP-Object-Detection.git
+cd POC-Real-Time-RTSP-Object-Detection
 ```
 
 ### Install dependencies:
@@ -60,7 +60,7 @@ model = YOLO("yolo26m.pt")
 
 Run the detection script:
 ```bash
-python test.py
+python poc_object_detection.py
 ```
 
 Press 'q' to quit the video window.
