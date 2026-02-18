@@ -41,11 +41,11 @@ In the code, locate the model initialization:
 # Change "yolo26m.pt" to "yolo11n.pt" for maximum speed
 model = YOLO("yolo26m.pt")
 ```
-yolo11n.pt (Nano): Fastest, ideal for older CPUs or high FPS.
+- yolo26n.pt (Nano): Fastest, ideal for older CPUs or high FPS.
 
-yolo11m.pt (Medium): Good balance between accuracy and speed.
+- yolo26m.pt (Medium): Good balance between accuracy and speed.
 
-yolo11l.pt (Large): High accuracy, requires a strong GPU.
+- yolo26l.pt (Large): High accuracy, requires a strong GPU.
 
 💻 Usage
 Run the detection script:
