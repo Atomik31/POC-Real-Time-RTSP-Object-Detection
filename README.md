@@ -25,7 +25,9 @@ Set up your environment:
 Create a .env file in the root folder and add your camera URL:
 
 Extrait de code
+```python
 RTSP_CAM=rtsp://username:password@192.168.1.108:554/cam/realmonitor?channel=1&subtype=1
+```
 ⚙️ Configuration
 You can easily customize the script by modifying these two lines in test.py:
 
@@ -48,6 +50,7 @@ yolo11l.pt (Large): High accuracy, requires a strong GPU.
 💻 Usage
 Run the detection script:
 
-Bash
+```Bash
 python test.py
+```
 Press 'q' to quit the video window.
