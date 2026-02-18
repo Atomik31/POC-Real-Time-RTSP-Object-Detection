@@ -7,7 +7,7 @@ load_dotenv()
 RTSP_URL = os.getenv("RTSP_CAM")
 # 1. Load the model
 # Note: yolo26m is a "Medium" model. If it stutters too much, switch to "yolo26n.pt"
-model = YOLO("yolo11m.pt") 
+model = YOLO("yolo26m.pt") 
 # 2. Open the stream via PyAV (Fast engine)
 container = av.open(RTSP_URL, options={
     'rtsp_transport': 'udp', 
@@ -35,3 +35,4 @@ except Exception as e:
     print(f"Error: {e}")
 finally:
     cv2.destroyAllWindows()
+
